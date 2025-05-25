@@ -406,5 +406,9 @@ h3 {
 .contact-container{
     width: 90%;
 }
+    
+.contact-form {
+width: 95%;
+}
 
 }
