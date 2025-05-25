@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">
+            <h1><a href="index.html"><img src="img/logo.png" alt="logo"></a></h1>
+        </div>
+        <a href="https://www.behance.net/mathieu_melis"><img src="img/behance.png" alt="behance"></a>
+        <ul class="nav_liens">
+            <li><a href="APropos.html">À propos</a></li>
+            <li><a href="index.html">Projets</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="burger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+</header>
+<main>
+    <section id="about" class="about">
+        <h2 class="titres">about</h2>
+        <p>Mathieu Melis est un Graphiste, Modeleur 3D et Motion Designer basé à Ath, Belgique
+    </section>
+
+    <section id="projets">
+        <h2 class="titres">Projets</h2>
+        <div class="parent">
+            <div class="div1"><a href="#">Projet Watch</a></div>
+            <div class="div2"><a href="https://www.behance.net/gallery/210828219/Logotype">Logotype</a></div>
+            <div class="div3"><a href="https://www.behance.net/gallery/197944467/DRAGON-BEER">Dragon Beer</a></div>
+            <div class="div4"><a href="#">ClothLine</a></div>
+            <div class="div5"> </div>
+    </section>
+
+</main>
+<footer>
+    <p>&copy; 2025 Mon Portfolio - Tous droits réservés</p>
+</footer>
+<script>
+    function toggleMenu() {
+    const navLinks = document.querySelector('.nav_liens');
+    navLinks.classList.toggle('active');
+    }
+</script>
+
+</body>
+</html>
