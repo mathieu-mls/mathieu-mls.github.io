@@ -34,7 +34,13 @@
             <li><a href="index.html">Projets</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
-        <div class="burger" onclick="toggleMenu()">
+        <button 
+            class="burger" 
+            onclick="toggleMenu()" 
+            aria-label="Ouvrir le menu de navigation"
+            aria-expanded="false"
+            aria-controls="navigation-menu"
+        >
             <div></div>
             <div></div>
             <div></div>
@@ -64,8 +70,12 @@
 </footer>
 <script>
     function toggleMenu() {
-    const navLinks = document.querySelector('.nav_liens');
-    navLinks.classList.toggle('active');
+        const navLinks = document.querySelector('.nav_liens');
+        navLinks.classList.toggle('active');
+
+        const burgerBtn = document.querySelector('.burger');
+        const expanded = burgerBtn.getAttribute('aria-expanded') === 'true';
+        burgerBtn.setAttribute('aria-expanded', !expanded);
     }
 </script>
 
