@@ -5,47 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Melis Mathieu">
     <meta name="robots" content="noindex, nofollow">
-    <meta name="description" content="Informations à propos de Melis Mathieu, graphiste, modeleur 3D et motion designer à Ath, Belgique.">
+    <meta name="description" content="Informations à propos de Melis Mathieu">
     <link rel="icon" href="img/favicon.webp" type="image/x-icon">
     <link rel="canonical" href="https://mathieu-mls.github.io/APropos.html">
     <title>À propos de Melis Mathieu</title>
     <link rel="stylesheet" href="style.css">
     
 </head>
-<header>
-    <nav>
-        <div class="logo">
-            <a href="index.html"><img src="img/logo.webp" alt="logo du graphiste Melis Mathieu" width="500" height="281"></a>
-        </div>
-        <ul class="nav_liens">
-            <li><a href="APropos.html">À propos</a></li>
-            <li><a href="index.html">Projets</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div class="burger" onclick="toggleMenu()">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </nav>
-</header>
+
 <body id="body_apropos">
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.webp" alt="logo du graphiste Melis Mathieu" width="500" height="281"></a>
+            </div>
+            <ul class="nav_liens">
+                <li><a href="APropos.html">À propos</a></li>
+                <li><a href="index.html">Projets</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="burger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </header>
+
     <main>
         <section>
             <h2>Mathieu Melis</h2>
-           <p>Bonjour, je m'appelle Mathieu, étudiant en Techniques graphique à la HEH(mons). Je me spécialise en design graphique, branding, 3D et motion design. Mon travail consiste à transformer des idées en visuels impactants qui captivent et communiquent efficacement un message.<br><br>
+            <p>Bonjour, je m'appelle Mathieu, étudiant en Techniques graphique à la HEH(mons). Je me spécialise en design graphique, branding, 3D et motion design. Mon travail consiste à transformer des idées en visuels impactants qui captivent et communiquent efficacement un message.<br><br>
                 
-              Ma passion ? Mélanger créativité et stratégie pour donner vie à des concepts uniques qui marquent les esprits. Si vous avez un projet, je serais ravi d’en discuter avec vous !</p>
+                Ma passion ? Mélanger créativité et stratégie pour donner vie à des concepts uniques qui marquent les esprits. Si vous avez un projet, je serais ravi d’en discuter avec vous !</p>
         </section>
     </main>
+
+    <footer>
+        <p>&copy; 2025 Melis Mathieu - Portfolio - Tous droits réservés</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+        const navLinks = document.querySelector('.nav_liens');
+        navLinks.classList.toggle('active');
+        }
+    </script>
 </body>
-<footer>
-    <p>&copy; 2025 Melis Mathieu - Portfolio - Tous droits réservés</p>
-</footer>
-<script>
-    function toggleMenu() {
-    const navLinks = document.querySelector('.nav_liens');
-    navLinks.classList.toggle('active');
-    }
-</script>
 </html>
