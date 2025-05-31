@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'Boldonse';
+  src: url('font/Boldonse-Regular.ttf');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('font/Comfortaa-VariableFont_wght.ttf');
+  font-style: normal;
+  font-display: swap;
+}
 
 body {
     font-family:  Comfortaa, Arial, sans-serif;
@@ -108,8 +121,7 @@ h1 {
     visibility: hidden; 
     transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
     text-transform: uppercase;
-    font-family: "arial black", sans-serif;
-    font-weight: 700;
+    font-family: "Boldonse", sans-serif;
 }
 
 
@@ -138,8 +150,7 @@ h1 {
     visibility: hidden; 
     transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
     text-transform: uppercase;
-    font-family: "arial black", sans-serif;
-    font-weight: 700;
+    font-family: "Boldonse", sans-serif;
 }
 
 
@@ -168,8 +179,7 @@ h1 {
     visibility: hidden; 
     transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
     text-transform: uppercase;
-    font-family: "arial black", sans-serif;
-    font-weight: 700;
+    font-family: "Boldonse", sans-serif;
 }
 
 
@@ -198,8 +208,7 @@ h1 {
     visibility: hidden; 
     transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
     text-transform: uppercase;
-    font-family: "arial black", sans-serif;
-    font-weight: 700;
+    font-family: "Boldonse", sans-serif;
 }
 
 
@@ -228,8 +237,7 @@ h1 {
     visibility: hidden; 
     transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
     text-transform: uppercase;
-    font-family: "arial black", sans-serif;
-    font-weight: 700;
+    font-family: "Boldonse", sans-serif;
 }
 
 
