@@ -386,7 +386,7 @@ h2 {
   cursor: pointer;
 }
 
-.burger div {
+.burger span {
   width: 25px;
   height: 3px;
   background-color: black;
