@@ -6,17 +6,22 @@
     <meta name="author" content="Melis Mathieu">
     <meta name="robots" content="index, follow">
     <meta name="description" content="Informations à propos du graphiste, Modeleur 3D et Motion Designer Melis Mathieu.">
+    <meta property="og:title" content="À propos de Melis Mathieu — Graphiste | 3D | Motion Design">
+    <meta property="og:description" content="Informations à propos du graphiste, Modeleur 3D et Motion Designer Melis Mathieu.">
+    <meta property="og:image" content="https://mathieu-mls.github.io/img/apercu.webp">
+    <meta property="og:url" content="https://mathieu-mls.github.io/APropos.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Portfolio Melis Mathieu">
     <link rel="icon" href="img/favicon.webp" type="image/x-icon">
     <link rel="canonical" href="https://mathieu-mls.github.io/APropos.html">
     <title>À propos de Melis Mathieu</title>
     <link rel="stylesheet" href="style.css">
-        <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-G5WBC2EVPG"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-    
       gtag('config', 'G-G5WBC2EVPG');
     </script>
 </head>
@@ -25,48 +30,56 @@
     <header>
         <nav>
             <div class="logo">
-                <a href="index.html"><img src="img/logo.webp" alt="logo du graphiste Melis Mathieu" width="500" height="281"></a>
+                <a href="index.html">
+                    <img src="img/logo.webp" alt="logo du graphiste Melis Mathieu" width="500" height="281">
+                </a>
             </div>
-            <ul class="nav_liens">
+            <ul class="nav_liens" id="navigation-menu">
                 <li><a href="APropos.html">À propos</a></li>
                 <li><a href="index.html">Projets</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
             <button 
-            class="burger" 
-            onclick="toggleMenu()" 
-            aria-label="Ouvrir le menu de navigation"
-            aria-expanded="false"
-            aria-controls="navigation-menu"
-        >
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
+                class="burger" 
+                onclick="toggleMenu()" 
+                aria-label="Ouvrir le menu de navigation"
+                aria-expanded="false"
+                aria-controls="navigation-menu"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </nav>
     </header>
 
     <main>
         <section>
             <h1>Mathieu Melis</h1>
-            <p>Bonjour, je m'appelle Mathieu, étudiant en Techniques graphique à la HEH(mons). Je me spécialise en design graphique, branding, 3D et motion design. Mon travail consiste à transformer des idées en visuels impactants qui captivent et communiquent efficacement un message.<br><br>
-                
-                Ma passion ? Mélanger créativité et stratégie pour donner vie à des concepts uniques qui marquent les esprits. Si vous avez un projet, je serais ravi d’en discuter avec vous !</p>
+            <p>
+                Bonjour, je m'appelle Mathieu, étudiant en Techniques graphiques à la HEH (Mons). 
+                Je me spécialise en design graphique, branding, 3D et motion design. 
+                Mon travail consiste à transformer des idées en visuels impactants qui captivent et communiquent efficacement un message.<br><br>
+
+                Ma passion ? Mélanger créativité et stratégie pour donner vie à des concepts uniques qui marquent les esprits. 
+                Si vous avez un projet, je serais ravi d’en discuter avec vous !
+            </p>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2025 Melis Mathieu - Portfolio - Tous droits réservés</p>
     </footer>
+
     <script>
         function toggleMenu() {
-        const navLinks = document.querySelector('.nav_liens');
-        navLinks.classList.toggle('active');
+            const navLinks = document.querySelector('.nav_liens');
+            navLinks.classList.toggle('active');
 
-        const burgerBtn = document.querySelector('.burger');
-        const expanded = burgerBtn.getAttribute('aria-expanded') === 'true';
-        burgerBtn.setAttribute('aria-expanded', !expanded);
-    }
+            const burgerBtn = document.querySelector('.burger');
+            const expanded = burgerBtn.getAttribute('aria-expanded') === 'true';
+            burgerBtn.setAttribute('aria-expanded', !expanded);
+        }
     </script>
 </body>
 </html>
