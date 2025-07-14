@@ -7,17 +7,22 @@
     <meta name="description" content="Découvrez le portfolio de Melis Mathieu, graphiste, modeleur 3D et motion designer à Ath, Belgique. Projets créatifs et animations.">
     <meta name="keywords" content="Melis Mathieu, Melis, Mathieu Melis, Infographiste, Graphiste, Motion Designer, Modeleur 3D, 3D, Ath, Belgique, Portfolio, Graphic Designer">
     <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Portfolio Melis Mathieu — Graphiste | 3D | Motion Design">
+    <meta property="og:description" content="Découvrez le portfolio de Melis Mathieu, graphiste, modeleur 3D et motion designer à Ath, Belgique. Projets créatifs et animations.">
+    <meta property="og:image" content="https://mathieu-mls.github.io/img/apercu.webp">
+    <meta property="og:url" content="https://mathieu-mls.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Portfolio Melis Mathieu">
     <link rel="icon" href="img/favicon.webp" type="image/x-icon">
     <link rel="canonical" href="https://mathieu-mls.github.io/">
     <title>Portfolio Melis Mathieu</title>
     <link rel="stylesheet" href="style.css">
-        <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-G5WBC2EVPG"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-    
       gtag('config', 'G-G5WBC2EVPG');
     </script>
 </head>
@@ -26,10 +31,14 @@
 <header>
     <nav>
         <div class="logo">
-            <a href="index.html"><img src="img/logo.webp" alt="logo du graphiste Melis Mathieu" width="500" height="281"></a>
+            <a href="index.html">
+                <img src="img/logo.webp" alt="logo du graphiste Melis Mathieu" width="500" height="281">
+            </a>
         </div>
-        <a href="https://www.behance.net/mathieu_melis" target="_blank" rel="noopener noreferrer"><img src="img/behance.webp" alt="behance de Melis Mathieu" width="200" height="200"></a>
-        <ul class="nav_liens">
+        <a href="https://www.behance.net/mathieu_melis" target="_blank" rel="noopener noreferrer">
+            <img src="img/behance.webp" alt="behance de Melis Mathieu" width="200" height="200">
+        </a>
+        <ul class="nav_liens" id="navigation-menu">
             <li><a href="APropos.html">À propos</a></li>
             <li><a href="index.html">Projets</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -41,12 +50,13 @@
             aria-expanded="false"
             aria-controls="navigation-menu"
         >
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
     </nav>
 </header>
+
 <main>
     <section id="about" class="about">
         <h2 class="titres">about</h2>
@@ -63,11 +73,12 @@
             <div class="div5"><a href="https://www.behance.net/gallery/227123611/ProjetZ-%28animation-paralaxe%29" target="_blank" rel="noopener noreferrer">ProjetZ</a></div>
         </div>
     </section>
-
 </main>
+
 <footer>
     <p>&copy; 2025 Melis Mathieu - Portfolio - Tous droits réservés</p>
 </footer>
+
 <script>
     function toggleMenu() {
         const navLinks = document.querySelector('.nav_liens');
